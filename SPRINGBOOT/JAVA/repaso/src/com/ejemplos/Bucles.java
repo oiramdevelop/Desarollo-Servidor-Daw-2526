@@ -60,7 +60,8 @@ public class Bucles {
         //Recorremos con un bucle for todos los elementos
         for(int j=0;j<listaPalabras.size();j++)
         {
-            palabra = (String) listaPalabras.get(j);
+            //Guardo la palabra en la posicion j del arrayList
+            palabra = listaPalabras.get(j);
 
             //Primero comprobamos si contiene una p
             if (palabra.toLowerCase().contains("p"))
