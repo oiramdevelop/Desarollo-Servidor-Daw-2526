@@ -2,12 +2,12 @@ package com.ejemplos;
 
 public class Puzzle {
 
-    int dificultad;
-    String instrucciones;
-    boolean resuelto;
-    String solucion;
-    int tiempoTardado;
-    int intentos;
+    private int dificultad;
+    private String instrucciones;
+    private boolean resuelto;
+    private String solucion;
+    private int tiempoTardado;
+    private int intentos;
 
     public Puzzle() {
 
