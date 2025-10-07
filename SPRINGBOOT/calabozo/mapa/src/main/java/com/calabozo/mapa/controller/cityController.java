@@ -9,8 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.calabozo.mapa.model.Ciudad;
 import com.calabozo.mapa.repository.CiudadRepository;
+
+import jakarta.websocket.server.PathParam;
+
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 @RequestMapping("/ciudades")
@@ -31,6 +36,19 @@ public class cityController {
 
         return "listaCiudades";
 
+    }
+
+    @GetMapping("/eliminar/{id}")
+    public String removeCity(@PathVariable Long id, RedirectAttributes redAttrib) {
+
+        if (!ciudadRepository.existsById(id))
+            redAttrib.addFlashAttribute("error", "La ciudad no Existe");
+        else {
+            ciudadRepository.deleteById(id);
+            redAttrib.addFlashAttribute("sucess", "Se ha borrado Correctamente la ciudad con id " + id);
+        }
+
+        return "redirect:/ciudades";
     }
 
 }
