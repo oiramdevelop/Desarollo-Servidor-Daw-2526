@@ -28,7 +28,7 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>id</th>
+
                     <th>Nombre</th>
                     <th>Pais</th>
                     <th>Extension</th>
@@ -40,12 +40,17 @@
 
             <tbody>
                 <tr th:each="ciudad : ${ciudades}">
-                    <td th:text="${ciudad.id}"></td>
+
                     <td th:text="${ciudad.nombre}"></td>
                     <td th:text="${ciudad.pais}"></td>
                     <td th:text="${ciudad.extension}"></td>
                     <td th:text="${ciudad.fechaFundacion}"> </td>
                     <td th:text="${ciudad.numHabitantes}"></td>
+                    <td>
+                        <a th:href="@{/ciudades/editar/{id}(id=${ciudad.id})}" class="btn btn-secondary btn-sm">
+                            Modificar
+                        </a>
+                    </td>
                     <td>
                         <a th:href="@{/ciudades/eliminar/{id}(id=${ciudad.id})}" class="btn btn-danger btn-sm">
                             Eliminar
