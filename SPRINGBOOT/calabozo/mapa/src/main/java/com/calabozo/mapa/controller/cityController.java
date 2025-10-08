@@ -88,7 +88,27 @@ public class cityController {
             ciudad = ciudadRepository.findById(id).get();
         // Cargamos la ciudad en el model y cargamos la vista
         model.addAttribute("ciudad", ciudad);
+        // TODO la fecha no la coge bien el type=date de html5 al estar guardada
+        // en formato americano en bd y intentar mostrarse en un navegador con formato
+        // español
+        // todo:solucionarlo
         return "editarCiudad";
+    }
+
+    @PostMapping("/modificar")
+    public String modifyCity(@ModelAttribute("ciudad") Ciudad ciudad, Model model) {
+
+        try {
+            // Guardamos la ciudad
+            ciudadRepository.save(ciudad);
+
+        } catch (Exception e) {
+            model.addAttribute("error", "La ciudad no Existe");
+            return "redirect:/ciudades";
+        }
+
+        return "redirect:/ciudades";
+
     }
 
 }
