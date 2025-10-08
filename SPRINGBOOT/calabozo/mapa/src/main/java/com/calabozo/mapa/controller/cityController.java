@@ -45,10 +45,22 @@ public class cityController {
             redAttrib.addFlashAttribute("error", "La ciudad no Existe");
         else {
             ciudadRepository.deleteById(id);
-            redAttrib.addFlashAttribute("sucess", "Se ha borrado Correctamente la ciudad con id " + id);
+            redAttrib.addFlashAttribute("success", "Se ha borrado Correctamente la ciudad con id " + id);
         }
 
         return "redirect:/ciudades";
+    }
+
+    @GetMapping("/nuevo")
+    public String newCity(Model model) {
+
+        // Creamos una ciudad para que el formulario
+        // la asocie a sus datos
+        Ciudad ciudad = new Ciudad();
+        // La guardamos en el model para que le llegue al formulario
+        model.addAttribute("ciudad", ciudad);
+        // Cargamos la vista nuevaCiudad
+        return "nuevaCiudad";
     }
 
 }
