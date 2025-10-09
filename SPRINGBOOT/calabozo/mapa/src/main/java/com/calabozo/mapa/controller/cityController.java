@@ -10,15 +10,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.calabozo.mapa.model.Ciudad;
 import com.calabozo.mapa.repository.CiudadRepository;
 
-import jakarta.websocket.server.PathParam;
+
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
+
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+
+
+
 
 @Controller
 @RequestMapping("/ciudades")
@@ -110,5 +112,23 @@ public class cityController {
         return "redirect:/ciudades";
 
     }
+    @GetMapping("/ver/{id}")
+    public String verEspecCity(@PathVariable Long id, Model model) {
+        // Verificamos si la ciudad existe
+        if (!ciudadRepository.existsById(id)) {
+            model.addAttribute("error", "La ciudad no existe");
+            return "verCiudad"; // Aún así retornamos la vista, pero sin datos
+        }
+        
+        // Obtenemos la ciudad de la base de datos
+        Ciudad ciudad = ciudadRepository.findById(id).get();
+        
+        // Cargamos la ciudad en el modelo
+        model.addAttribute("ciudad", ciudad);
+        
+        // Retornamos la vista específica para ver detalles
+        return "verCiudadEspec";
+    }
+    
 
 }

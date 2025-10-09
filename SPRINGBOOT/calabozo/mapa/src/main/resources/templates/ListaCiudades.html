@@ -41,7 +41,13 @@
             <tbody>
                 <tr th:each="ciudad : ${ciudades}">
 
-                    <td th:text="${ciudad.nombre}"></td>
+                    <td>
+                        <a th:href="@{/ciudades/ver/{id}(id=${ciudad.id})}" target="_blank" class="text-decoration-none">
+                            <span th:text="${ciudad.nombre}" class="fw-bold text-primary">
+
+                            </span>
+                        </a>
+                    </td>
                     <td th:text="${ciudad.pais}"></td>
                     <td th:text="${ciudad.extension}"></td>
                     <td th:text="${ciudad.fechaFundacion}"> </td>
