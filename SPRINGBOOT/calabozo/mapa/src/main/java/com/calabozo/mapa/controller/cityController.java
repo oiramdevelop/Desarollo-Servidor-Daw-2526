@@ -2,6 +2,8 @@ package com.calabozo.mapa.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,11 +23,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 
 
-
 @Controller
 @RequestMapping("/ciudades")
 public class cityController {
 
+
+    //Creamps 
+    private Logger logger = LoggerFactory.getLogger(cityController.class); // Corrige aquí
     @Autowired
     private CiudadRepository ciudadRepository;
 
@@ -51,6 +55,7 @@ public class cityController {
         else {
             ciudadRepository.deleteById(id);
             redAttrib.addFlashAttribute("success", "Se ha borrado Correctamente la ciudad con id " + id);
+            logger.info("Se borro bien julais");
         }
 
         return "redirect:/ciudades";
