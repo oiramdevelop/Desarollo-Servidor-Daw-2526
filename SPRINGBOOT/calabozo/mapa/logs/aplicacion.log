@@ -1,19 +1,19 @@
-2025-10-16T11:07:01.105+02:00  INFO 10820 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : Starting MapaApplication using Java 17.0.16 with PID 10820 (C:\DAW\2 DAW\Desarollo de servidor\Desarollo-Servidor-Daw-2526\SPRINGBOOT\calabozo\mapa\target\classes started by oiram in c:\DAW\2 DAW\Desarollo de servidor\Desarollo-Servidor-Daw-2526\SPRINGBOOT\calabozo\mapa)
-2025-10-16T11:07:01.111+02:00  INFO 10820 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-10-16T11:07:02.077+02:00  INFO 10820 --- [mapa] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-16T11:07:02.146+02:00  INFO 10820 --- [mapa] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
-2025-10-16T11:07:02.856+02:00  INFO 10820 --- [mapa] [main] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-10-16T11:07:02.883+02:00  INFO 10820 --- [mapa] [main] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-16T11:07:02.883+02:00  INFO 10820 --- [mapa] [main] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.11]
-2025-10-16T11:07:02.962+02:00  INFO 10820 --- [mapa] [main] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1779 ms
-2025-10-16T11:07:03.395+02:00  INFO 10820 --- [mapa] [main] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-16T11:07:03.501+02:00  INFO 10820 --- [mapa] [main] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.1.Final
-2025-10-16T11:07:04.273+02:00  INFO 10820 --- [mapa] [main] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-16T11:07:04.310+02:00  INFO 10820 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-16T11:07:04.577+02:00  INFO 10820 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9de1b85
-2025-10-16T11:07:04.578+02:00  INFO 10820 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-16T11:07:04.627+02:00  WARN 10820 --- [mapa] [main] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-16T11:07:04.643+02:00  INFO 10820 --- [mapa] [main] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-10-16T11:20:17.895+02:00  INFO 12368 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : Starting MapaApplication using Java 17.0.16 with PID 12368 (C:\DAW\2 DAW\Desarollo de servidor\Desarollo-Servidor-Daw-2526\SPRINGBOOT\calabozo\mapa\target\classes started by oiram in c:\DAW\2 DAW\Desarollo de servidor\Desarollo-Servidor-Daw-2526\SPRINGBOOT\calabozo\mapa)
+2025-10-16T11:20:17.904+02:00  INFO 12368 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : No active profile set, falling back to 1 default profile: "default"
+2025-10-16T11:20:18.875+02:00  INFO 12368 --- [mapa] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-16T11:20:18.949+02:00  INFO 12368 --- [mapa] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2025-10-16T11:20:19.630+02:00  INFO 12368 --- [mapa] [main] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-10-16T11:20:19.651+02:00  INFO 12368 --- [mapa] [main] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-16T11:20:19.652+02:00  INFO 12368 --- [mapa] [main] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.11]
+2025-10-16T11:20:19.758+02:00  INFO 12368 --- [mapa] [main] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1792 ms
+2025-10-16T11:20:20.232+02:00  INFO 12368 --- [mapa] [main] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-16T11:20:20.328+02:00  INFO 12368 --- [mapa] [main] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.1.Final
+2025-10-16T11:20:21.213+02:00  INFO 12368 --- [mapa] [main] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-16T11:20:21.262+02:00  INFO 12368 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-16T11:20:21.569+02:00  INFO 12368 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f40568e
+2025-10-16T11:20:21.571+02:00  INFO 12368 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-16T11:20:21.624+02:00  WARN 12368 --- [mapa] [main] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-16T11:20:21.639+02:00  INFO 12368 --- [mapa] [main] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/citydungeon]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -25,197 +25,15 @@
 	Pool: DatasourceConnectionProviderImpl
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-16T11:07:05.435+02:00  INFO 10820 --- [mapa] [main] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-16T11:07:05.505+02:00  INFO 10820 --- [mapa] [main] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-16T11:07:05.592+02:00  INFO 10820 --- [mapa] [main] [                                                 ] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-16T11:07:05.722+02:00  WARN 10820 --- [mapa] [main] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-16T11:07:06.513+02:00  INFO 10820 --- [mapa] [main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-10-16T11:07:06.637+02:00  INFO 10820 --- [mapa] [main] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-10-16T11:07:06.646+02:00  INFO 10820 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : Started MapaApplication in 6.016 seconds (process running for 6.612)
-2025-10-16T11:07:39.977+02:00  INFO 10820 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-16T11:07:39.977+02:00  INFO 10820 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-16T11:07:39.979+02:00  INFO 10820 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-10-16T11:07:44.985+02:00 ERROR 10820 --- [mapa] [http-nio-8080-exec-2] [                                                 ] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.logging.Logger.info(String)" because "this.logger" is null] with root cause
-
-java.lang.NullPointerException: Cannot invoke "java.util.logging.Logger.info(String)" because "this.logger" is null
-	at com.calabozo.mapa.controller.cityController.removeCity(cityController.java:57) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:256) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:933) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:852) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.11.jar:6.1]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.11.jar:6.1]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1780) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:948) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:482) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
-
-2025-10-16T11:11:18.899+02:00 ERROR 10820 --- [mapa] [http-nio-8080-exec-6] [                                                 ] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.util.logging.Logger.info(String)" because "this.logger" is null] with root cause
-
-java.lang.NullPointerException: Cannot invoke "java.util.logging.Logger.info(String)" because "this.logger" is null
-	at com.calabozo.mapa.controller.cityController.removeCity(cityController.java:57) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:256) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:933) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:852) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.11.jar:6.1]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.0-M9.jar:7.0.0-M9]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.11.jar:6.1]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:130) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.0-M9.jar:7.0.0-M9]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:109) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1780) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:948) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:482) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.11.jar:11.0.11]
-	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
-
-2025-10-16T11:14:17.349+02:00  INFO 16316 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : Starting MapaApplication using Java 17.0.16 with PID 16316 (C:\DAW\2 DAW\Desarollo de servidor\Desarollo-Servidor-Daw-2526\SPRINGBOOT\calabozo\mapa\target\classes started by oiram in c:\DAW\2 DAW\Desarollo de servidor\Desarollo-Servidor-Daw-2526\SPRINGBOOT\calabozo\mapa)
-2025-10-16T11:14:17.359+02:00  INFO 16316 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-10-16T11:14:18.340+02:00  INFO 16316 --- [mapa] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-16T11:14:18.408+02:00  INFO 16316 --- [mapa] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
-2025-10-16T11:14:19.131+02:00  INFO 16316 --- [mapa] [main] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-10-16T11:14:19.161+02:00  INFO 16316 --- [mapa] [main] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-16T11:14:19.161+02:00  INFO 16316 --- [mapa] [main] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.11]
-2025-10-16T11:14:19.238+02:00  INFO 16316 --- [mapa] [main] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1816 ms
-2025-10-16T11:14:19.779+02:00  INFO 16316 --- [mapa] [main] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-16T11:14:19.889+02:00  INFO 16316 --- [mapa] [main] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.1.Final
-2025-10-16T11:14:20.777+02:00  INFO 16316 --- [mapa] [main] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-16T11:14:20.818+02:00  INFO 16316 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-16T11:14:21.096+02:00  INFO 16316 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f40568e
-2025-10-16T11:14:21.099+02:00  INFO 16316 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-16T11:14:21.150+02:00  WARN 16316 --- [mapa] [main] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-16T11:14:21.166+02:00  INFO 16316 --- [mapa] [main] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/citydungeon]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.43
-	Default catalog/schema: citydungeon/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DatasourceConnectionProviderImpl
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-16T11:14:22.035+02:00  INFO 16316 --- [mapa] [main] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-16T11:14:22.086+02:00  INFO 16316 --- [mapa] [main] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-16T11:14:22.197+02:00  INFO 16316 --- [mapa] [main] [                                                 ] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-16T11:14:22.362+02:00  WARN 16316 --- [mapa] [main] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-16T11:14:23.238+02:00  INFO 16316 --- [mapa] [main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-10-16T11:14:23.407+02:00  INFO 16316 --- [mapa] [main] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-10-16T11:14:23.419+02:00  INFO 16316 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : Started MapaApplication in 6.589 seconds (process running for 7.197)
-2025-10-16T11:14:23.660+02:00  INFO 16316 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-16T11:14:23.660+02:00  INFO 16316 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-16T11:14:23.662+02:00  INFO 16316 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-10-16T11:15:25.174+02:00  INFO 16316 --- [mapa] [http-nio-8080-exec-4] [                                                 ] c.c.mapa.controller.cityController       : Info
-2025-10-16T11:15:51.420+02:00  INFO 16316 --- [mapa] [http-nio-8080-exec-6] [                                                 ] c.c.mapa.controller.cityController       : Info
-2025-10-16T11:16:16.878+02:00  INFO 16316 --- [mapa] [http-nio-8080-exec-8] [                                                 ] c.c.mapa.controller.cityController       : Info
-2025-10-16T11:17:13.241+02:00  INFO 17716 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : Starting MapaApplication using Java 17.0.16 with PID 17716 (C:\DAW\2 DAW\Desarollo de servidor\Desarollo-Servidor-Daw-2526\SPRINGBOOT\calabozo\mapa\target\classes started by oiram in c:\DAW\2 DAW\Desarollo de servidor\Desarollo-Servidor-Daw-2526\SPRINGBOOT\calabozo\mapa)
-2025-10-16T11:17:13.250+02:00  INFO 17716 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : No active profile set, falling back to 1 default profile: "default"
-2025-10-16T11:17:14.278+02:00  INFO 17716 --- [mapa] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-16T11:17:14.343+02:00  INFO 17716 --- [mapa] [main] [                                                 ] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
-2025-10-16T11:17:15.005+02:00  INFO 17716 --- [mapa] [main] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-10-16T11:17:15.038+02:00  INFO 17716 --- [mapa] [main] [                                                 ] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-16T11:17:15.038+02:00  INFO 17716 --- [mapa] [main] [                                                 ] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.11]
-2025-10-16T11:17:15.142+02:00  INFO 17716 --- [mapa] [main] [                                                 ] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1827 ms
-2025-10-16T11:17:15.594+02:00  INFO 17716 --- [mapa] [main] [                                                 ] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-16T11:17:15.683+02:00  INFO 17716 --- [mapa] [main] [                                                 ] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.1.Final
-2025-10-16T11:17:16.482+02:00  INFO 17716 --- [mapa] [main] [                                                 ] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-16T11:17:16.519+02:00  INFO 17716 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-16T11:17:16.779+02:00  INFO 17716 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52c6e959
-2025-10-16T11:17:16.782+02:00  INFO 17716 --- [mapa] [main] [                                                 ] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-16T11:17:16.836+02:00  WARN 17716 --- [mapa] [main] [                                                 ] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-10-16T11:17:16.851+02:00  INFO 17716 --- [mapa] [main] [                                                 ] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/citydungeon]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.43
-	Default catalog/schema: citydungeon/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DatasourceConnectionProviderImpl
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-10-16T11:17:17.640+02:00  INFO 17716 --- [mapa] [main] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-16T11:17:17.688+02:00  INFO 17716 --- [mapa] [main] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-16T11:17:17.772+02:00  INFO 17716 --- [mapa] [main] [                                                 ] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-10-16T11:17:17.898+02:00  WARN 17716 --- [mapa] [main] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-16T11:17:18.762+02:00  INFO 17716 --- [mapa] [main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2025-10-16T11:17:18.902+02:00  INFO 17716 --- [mapa] [main] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-10-16T11:17:18.915+02:00  INFO 17716 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : Started MapaApplication in 6.174 seconds (process running for 6.79)
-2025-10-16T11:17:22.671+02:00  INFO 17716 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-16T11:17:22.671+02:00  INFO 17716 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-16T11:17:22.673+02:00  INFO 17716 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-10-16T11:17:25.996+02:00  INFO 17716 --- [mapa] [http-nio-8080-exec-2] [                                                 ] c.c.mapa.controller.cityController       : Se borro bien julais
+2025-10-16T11:20:22.578+02:00  INFO 12368 --- [mapa] [main] [                                                 ] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-16T11:20:22.627+02:00  INFO 12368 --- [mapa] [main] [                                                 ] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-16T11:20:22.708+02:00  INFO 12368 --- [mapa] [main] [                                                 ] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-16T11:20:22.851+02:00  WARN 12368 --- [mapa] [main] [                                                 ] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-16T11:20:23.685+02:00  INFO 12368 --- [mapa] [main] [                                                 ] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-16T11:20:23.819+02:00  INFO 12368 --- [mapa] [main] [                                                 ] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-10-16T11:20:23.831+02:00  INFO 12368 --- [mapa] [main] [                                                 ] com.calabozo.mapa.MapaApplication        : Started MapaApplication in 6.447 seconds (process running for 7.057)
+2025-10-16T11:20:30.345+02:00  INFO 12368 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-16T11:20:30.345+02:00  INFO 12368 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-16T11:20:30.347+02:00  INFO 12368 --- [mapa] [http-nio-8080-exec-1] [                                                 ] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-16T11:20:33.189+02:00  INFO 12368 --- [mapa] [http-nio-8080-exec-2] [                                                 ] c.c.mapa.controller.cityController       : Se borro bien julais
+2025-10-16T11:22:24.529+02:00  INFO 12368 --- [mapa] [http-nio-8080-exec-7] [                                                 ] c.c.mapa.controller.cityController       : Se borro bien julais

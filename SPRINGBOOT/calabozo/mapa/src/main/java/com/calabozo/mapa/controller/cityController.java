@@ -55,7 +55,7 @@ public class cityController {
         else {
             ciudadRepository.deleteById(id);
             redAttrib.addFlashAttribute("success", "Se ha borrado Correctamente la ciudad con id " + id);
-            logger.info("Se borro bien julais");
+            logger.info("Se borro ha borrado bien el pais de la BD sin fallos");
         }
 
         return "redirect:/ciudades";
